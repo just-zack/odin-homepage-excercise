@@ -16,6 +16,12 @@ a {
     border-radius: 40px;
     border: solid 2px;
 }
+
+img {
+    max-height: 300px;
+    flex: auto;
+}
+
 header {
     background-color: #F1C964;
     display: flex;
@@ -59,8 +65,9 @@ section.hero {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 48px;
     font-weight: 700;
+    margin: 0;
 }
 h3 {
     font-size: 25px;
@@ -102,7 +109,7 @@ img.hero-image {
 }
 
 .second {
-    background-color: antiquewhite;
+    background-color: #EDEAE0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,18 +134,45 @@ img.hero-image {
     padding: 20px;
     gap: 10px;
 }
-img {
-    max-height: 300px;
-    flex: auto;
-}
 
 .image-card img {
     border: solid 2px;
     border-radius: 30px;
+    width: 250px;
+    flex: auto;
 }
 .image-card p {
     flex: 1;
+}
 
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+    margin: 0;
+    background-color: #0C577F;
+}
+
+.third .quote-block {
+    color: #EDEAE0;
+    font-size: 36px;
+    font-style: italic;
+    align-self: center;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.signature {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #EDEAE0;
 }
 footer {
     background-color: #F1C964;
